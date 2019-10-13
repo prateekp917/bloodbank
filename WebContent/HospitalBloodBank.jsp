@@ -7,8 +7,9 @@
 <title>BloodBank and Hospital Portal</title>
 </head>
 <body>
-<h3>Welcome Bloodbank and Hospital User : <%=request.getAttribute("username") %> </h3>
-<input type="text" class="searchTerm" placeholder="text"><br />
+<h3> BloodBank/Hospital Portal</h3>><br /><br />
+<h3>Welcome  : <%=request.getAttribute("userid") %> </h3>
+<input type="text" class="searchTerm" placeholder="Search bloodtype" name= "bloodtype"><br />
 <button type="submit" class="searchButton" value="Search"></button>
 </body>
 </html>
